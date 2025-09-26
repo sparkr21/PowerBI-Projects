@@ -1,0 +1,48 @@
+# EHR RTPBC Provider API Request Stats Dashboard
+
+## Overview
+This dashboard provides insights into API request statistics for the EHR RTPBC Provider. It includes interactive filters, summary cards, and visualizations to help users analyze request performance and failure reasons.
+
+---
+
+## 🔧 Features
+
+### 📅 Date Range Selector
+- Allows users to select a custom date range for analysis.
+
+### 🔽 API Transaction Slicer
+- Dropdown slicer to filter data by specific API transactions.
+
+---
+
+## 📊 Summary Cards
+
+- **🔵 Total Requests**
+  - Displays the total number of API requests (pass + fail).
+  - Color: Blue
+- **🟢 Successful Requests**
+  - Displays the total number of successful API requests.
+  - Color: Green
+
+- **🔴 Failed Requests**
+  - Displays the total number of failed API requests.
+  - Color: Red
+
+- **🟡 Average Time per Successful Request**
+  - Displays the average processing time for successful requests.
+  - Color: Yellow
+
+---
+
+## 📈 Visualizations
+
+### 🍩 Donut Chart: Top Failure Reasons
+- Shows the most common reasons for failed API requests.
+
+### 🍩 Donut Chart: Top Clients by `app_id`
+- Displays the top clients based on their `app_id`.
+
+---
+
+## 🎯 Purpose
+To monitor and analyze the performance and reliability of EHR RTPBC Provider APIs, helping stakeholders identify issues and optimize client interactions.
