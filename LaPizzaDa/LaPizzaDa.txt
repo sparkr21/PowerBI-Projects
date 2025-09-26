@@ -1,0 +1,31 @@
+La Pizza Da - A quick service restraint, is having data of Customers and Orders.
+
+Questions:
+	1. Which is the city (non new i.e. one among the existing locations) we should open a new outlet?
+	2. We want to give special treatment to our prime customers, please find them so that we can run a lucky draw.
+	3. What are the value of key business KPIs?
+	4.Which Product is being ordered the most?
+	5.Which city/state is having the maximum number of order?
+
+Requirements Of Dashboard Elements- 
+
+Logo - The org logo and name should be present at top left corner.
+
+KPIs as card elements:
+	1.Total Number of Orders.
+	2.Total Quantity of Orders.
+	3.Average Product Cost.
+	4.Average Order Amount.
+	5.Profit Percentage.
+
+Table Element: Highlighting top 5 customers by Order Amount along with their name and city.
+
+Pie Charts:
+	1. Number of Orders by Product State.
+	2. Number of Orders by Product.
+	3. Number of Orders by City.
+
+Bar Graphs:
+	1. Profit Percentage by state.
+	2. Number of Orders by Selling Price.
+
